@@ -1,4 +1,4 @@
-# Sample Repo for a Typeorm-cli-bug
+# Sample Repo for a Typeorm CLI bug
 
 Steps to reproduce bug:
 
