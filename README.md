@@ -1,7 +1,9 @@
-# Awesome Project Build with TypeORM
+# Sample Repo for a Typeorm-cli-bug
 
-Steps to run this project:
+Steps to reproduce bug:
 
-1. Run `npm i` command
-2. Setup database settings inside `ormconfig.json` file
-3. Run `npm start` command
+1. Create a Postgres database called bug
+2. run `npm i` or `npm install`
+3. run `npm run typeorm:migrate initial`
+4. confirm the new migration has been created
+5. run `node migration.js initial`
